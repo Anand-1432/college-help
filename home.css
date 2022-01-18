@@ -1,0 +1,122 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    background-color: #edf3fa;
+}
+nav
+{
+    background-color:#edf3fa;
+}
+.navbar-nav
+{
+  margin: auto;
+}
+.navbar-brand
+{
+  margin-left: 10px;
+  font-weight: 700;
+  font-size: 24px;
+}
+#college{
+    
+    color: rgb(49, 160, 114);
+}
+#help{
+    color: rgb(78, 95, 248);
+}
+.nav-item
+{
+    margin: auto;
+    padding-right:20px ;
+    /* z-index: 1; */
+}
+.nav-link,.navbar-brand{
+    color: #353b49;
+}
+.nav-link:hover
+{
+ text-shadow: 5px 2px 20px rgb(0, 30, 199);
+ font-size: 17px;
+}
+#img{
+    /* position: absolute; */
+    width: 100%;
+    height: auto;
+    /* right: 0px; */
+    top:0px;
+}
+.content{
+    display: grid;
+    place-content: center;
+}
+.content h1{
+    font-size: 60px;
+    font-weight: 700;
+    margin-left: 13vw;
+    margin-right: 10vw;
+}
+.content #p1{
+    font-size: 24px;
+    font-weight: 600;
+    margin: 100px 0px 30px 6px;
+    margin-left: 13.2vw;
+    margin-right: 10vw;
+}
+.content #p2{
+    margin: 50px 0px 50px 0px;
+    margin-left: 13vw;
+    margin-right: 10vw;
+}
+.content .imgc{
+    margin-left: 5vw;
+    margin-bottom: 50px;
+}
+.content img{
+    width: 45%;
+    height: auto;
+    margin: auto;
+    display: inline;
+}
+.container #img1{
+    width: 100%;
+    height: auto;
+}
+.content2{
+    padding: 6vw 7vw 0px 7vw;
+}
+.container h1{
+     margin-top: 50px;
+     font-weight: 700;
+}
+.para1{
+    font-size: 30px;
+    font-family: 'Cinzel', serif;
+    font-weight: 600;
+}
+.para2{
+    font-size: 60px;
+    font-family: 'Playfair Display', serif;
+    font-weight: 700;
+    margin-top: -20px;
+    margin-bottom: 0px;
+}
+#cm1{
+    width: 80px;
+}
+.col-9{
+    padding-right: 5px;
+    font-size: 12px;
+    padding-top: 4px;
+     margin-left: -6px;
+}
+.col-9 p{
+    font-weight: 600;
+    font-size: 18px;
+    margin-bottom: 0px;
+}
+.notes{
+    margin-left: -30px;
+}
