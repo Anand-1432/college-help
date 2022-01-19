@@ -93,9 +93,20 @@ body #bgmig{
     margin: -60px auto -30px auto;
 }
 #learn{
-    width: 20%;
+    width:140px;
+    height: 80px;
     margin-bottom: 30px;
     margin-left: 11.3vw;
+}
+@media (max-width:768px) {
+    #learn{
+        margin-left: 9.8vw;
+    }
+}
+@media (max-width:450px) {
+    #learn{
+        margin-left: 8vw;
+    }
 }
 .imgc img{
     width: 50%;
