@@ -2,159 +2,151 @@
 <html lang="en">
 
 <head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css">
-  <script src="https://kit.fontawesome.com/9829795296.js" crossorigin="anonymous"></script>
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
-    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css">
+    <script src="https://kit.fontawesome.com/9829795296.js" crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
 
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Cedarville+Cursive&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cedarville+Cursive&display=swap" rel="stylesheet">
 
-  <link rel="stylesheet" href="./home.css">
+    <link rel="stylesheet" href="./index.css">
 
-  <title>Home page</title>
+    <title>Home page</title>
 </head>
 
 <body>
 
+    <img src="./images/background.png" alt="" id="bgmig">
 
-  <!-- header file code//////////////////////////////////////////////////////////////////// -->
+    <nav class="navbar navbar-expand-lg navbar-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand"><span id="college">College</span><span id="help">Help</span></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation" id="blue">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" id="black" aria-current="page" href="./index.html">Home</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            Services
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="#">Notes</a></li>
+                            <li><a class="dropdown-item" href="#">Time-Table</a></li>
+                            <li><a class="dropdown-item" href="#">Syllabus</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            Branch
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="./CSE.html">CSE</a></li>
+                            <li><a class="dropdown-item" href="./IT.html">IT</a></li>
+                            <li><a class="dropdown-item" href="./ECE.html">ECE</a></li>
+                            <li><a class="dropdown-item" href="./CE.html">Civil</a></li>
+                            <li><a class="dropdown-item" href="./ME.html">ME</a></li>
+                            <li><a class="dropdown-item" href="./EE.html">EE</a></li>
+                            <li><a class="dropdown-item" href="./IP.html">IP</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" id="black" href="./contribute.html">Contribute</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" id="black" href="./about.html">About-Us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" id="black" href="./contact.html">Contact-Us</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
 
-  <nav class="navbar navbar-expand-lg navbar-light ">
+    <!-- middle////////////////////////////////////////////////////////////////////////////////////////////////// -->
+
     <div class="container-fluid">
-      <a class="navbar-brand"><span id="college">College</span><span id="help">Help</span></a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
-        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-          <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="./index.html">Home</a>
-          </li>
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
-              aria-expanded="false">
-              Services
-            </a>
-            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-              <li><a class="dropdown-item" href="#">Notes</a></li>
-              <li><a class="dropdown-item" href="#">Time-Table</a></li>
-              <li><a class="dropdown-item" href="#">Syllabus</a></li>
-            </ul>
-          </li>
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
-              aria-expanded="false">
-              Branch
-            </a>
-            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-              <li><a class="dropdown-item" href="./CSE.html">CSE</a></li>
-              <li><a class="dropdown-item" href="./IT.html">IT</a></li>
-              <li><a class="dropdown-item" href="./ECE.html">ECE</a></li>
-              <li><a class="dropdown-item" href="./CE.html">Civil</a></li>
-              <li><a class="dropdown-item" href="./ME.html">ME</a></li>
-              <li><a class="dropdown-item" href="./EE.html">EE</a></li>
-              <li><a class="dropdown-item" href="./IP.html">IP</a></li>
-            </ul>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="./contribute.html">Contribute</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="./about.html">About-Us</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="./contact.html">Contact-Us</a>
-          </li>
-        </ul>
-      </div>
+        <div class="row">
+            <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 content">
+                <p id="p1">CollegeHelp Provides</p>
+                <h1>Education</h1>
+                <h1>Solutions</h1>
+                <p id="p2">We are here to help you and working to make your study more easier and comfortable.</p>
+                <div class="imgl"><img src="./images/learn more.png" alt="" id="learn"></div>
+                <div class="imgc">
+                    <img src="./images/our creative team.png" alt="">
+                </div>
+            </div>
+            <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 imgContainer">
+                <img src="./images/home image.png" alt="" id="img">
+            </div>
+        </div>
     </div>
-  </nav>
+    <!-- //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// -->
 
-  <!-- middle////////////////////////////////////////////////////////////////////////////////////////////// -->
-
-  <div class="container-fluid">
-    <div class="row">
-      <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 content">
-        <p id="p1">CollegeHelp Provides</p>
-        <h1>Education</h1>
-        <h1>Solutions</h1>
-        <p id="p2">We are here to help you and working to make your study more easier and comfortable.</p>
-        <div class="imgc">
-          <img src="./images/learn more.png" alt="">
-          <img src="./images/our creative team.png" alt="">
+    <div class="container">
+        <div class="row">
+            <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12">
+                <img src="./images/Group 41.png" alt="" id="img1">
+            </div>
+            <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 content2">
+               
+                <div class="caption">
+                    <p class="para1">Take Your</p>
+                    <p class="para2">Academ<span style="color: rgb(240, 198, 14);">i</span>cs</p>
+                    <p class="para1">To The Next Level</p>
+                  </div>
+            
+                <div class="jaadu">   
+                    <div class="imgA"><img src="./images/class note icon.png" alt=""></div>
+                    <div class="con">
+                      <p id="pA1">Class Notes</p>
+                      <p id="pA2">Get exclusive notes written by students while sitting in classroom IITs nand NITs</p>
+                    </div>
+            
+                    <div class="imgB"><img src="./images/study material icon.png" alt=""></div>
+                    <div class="conB">
+                      <p id="pB1">Study Materials</p>
+                      <p id="pB2">Ace your exam with previous years papers set by your college professors.</p>
+                    </div>
+            
+                    <div class="imgC"><img src="./images/stay updated icon.png" alt=""></div>
+                    <div class="conC">
+                      <p id="pC1">Stay Updated</p>
+                      <p id="pC2">be updated with all notifications of your college at one place.</p>
+                    </div>
+                </div>
+            
+            </div>
         </div>
-      </div>
-      <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12">
-        <img src="./images/bg2.png" alt="" id="img">
-      </div>
     </div>
-  </div>
 
-  <div class="container">
-    <div class="row">
-      <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12">
-        <img src="./images/Group 41.png" alt="" id="img1">
-      </div>
-      <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 content2">
-        <p class="para1">Take Your</p>
-        <p class="para2">Academ<span style="color: rgb(240, 198, 14);">i</span>cs</p>
-        <p class="para1">To The Next Level</p>
+  <div class="learnMore"><img src="./images/learn more.png" alt="" srcset=""></div>
 
-        <div class="container-fluid notes">
-          <div class="row">
-                    <div class="col-3">
-                    <img src="./images/class note icon.png" alt="" id="cm1">
-                    </div>
-                    <div class="col-9">
-                    <p>Class Notes</p>
-                     Get exclusive notes written by students while sitting in classroom IITs nand NITs
-                    </div>
-          </div>
-        </div>
+    <!-- //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// -->
 
-        <div class="container-fluid notes">
-          <div class="row">
-                    <div class="col-3">
-                    <img src="./images/study material icon.png" alt="" id="cm1">
-                    </div>
-                    <div class="col-9">
-                    <p>Study Materials</p>
-                     Ace your exam with previous years papers set by your college professors
-                    </div>
-          </div>
-        </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"
+        integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"
+        integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13"
+        crossorigin="anonymous"></script>
 
-        <div class="container-fluid notes">
-          <div class="row">
-                    <div class="col-3">
-                    <img src="./images/stay updated icon.png" alt="" id="cm1">
-                    </div>
-                    <div class="col-9">
-                    <p>Stay Updated</p>
-                     be updated with all notifications of your college at one place
-                    </div>
-          </div>
-        </div>
-  
-
-      </div>
-    </div>
-  </div>
-
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"
-    integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB"
-    crossorigin="anonymous"></script>
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"
-    integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13"
-    crossorigin="anonymous"></script>
 
 </body>
 
