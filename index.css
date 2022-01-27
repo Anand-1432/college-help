@@ -397,16 +397,54 @@ body #bgmig{
  }
  .contentBox{
      justify-content: left;
-     margin-left: 20px;
  }
  .boxColor{
      padding-top: 30px;
      padding-bottom: 30px;
      background-color: #edf3fa;
  }
+ .boxhead{
+     margin-left: 20px;
+ }
 }
 @media (max-width:991.5px) {
     .h1{
         width: 100%;
     }
+}
+/* /////////////////////////////////////////////////////////////////////// */
+
+/* #bG1{
+    width: 100%;
+    height: auto;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    z-index: -1;
+    object-fit:cover;
+} */
+.imgBox img{
+    width: 345px;
+    height: auto;
+}
+.imgBox{
+    display: grid;
+    place-content: center;
+}
+.head1{
+    width: 100vw;
+    text-align: center;
+    font-size: 28px;
+    font-weight: 750;
+}
+.imgBox2{
+  margin-top: 40px;
+  margin-bottom: 40px;
+  width: 100%;
+  text-align: center;
+}
+.imgBox2 img{
+    width: 150px;
+    height: auto;
+    border-radius: 15px;
 }
