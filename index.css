@@ -362,3 +362,51 @@ body #bgmig{
         margin-top: -160px;
     }
 }
+
+/* ////////////////////////////////////////////////////////////////////////////// */
+.boxcontainer{
+    display: grid;
+    place-content: center;
+}
+.boxcontainer img{
+    width: 100%;
+    height: auto;
+}
+.h1{
+    width: 77%;
+    border-bottom: 2px solid black;
+    font-weight: 700;
+}
+.contentBox{
+    display: grid;
+    place-content: center;
+}
+.contentBox1{
+    margin-left: 20px;
+    padding-right: 80px;
+}
+.contentBox2{
+    display: none;
+}
+@media (max-width:767.5px) {
+ .contentBox1{
+     display: none;
+ }   
+ .contentBox2{
+     display: block;
+ }
+ .contentBox{
+     justify-content: left;
+     margin-left: 20px;
+ }
+ .boxColor{
+     padding-top: 30px;
+     padding-bottom: 30px;
+     background-color: #edf3fa;
+ }
+}
+@media (max-width:991.5px) {
+    .h1{
+        width: 100%;
+    }
+}
