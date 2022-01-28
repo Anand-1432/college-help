@@ -13,19 +13,6 @@ body #bgmig{
     z-index: -1;
     object-fit:cover;
 }
-@media (max-width:1116px) {
-    body #bgmig{
-        height: auto;
-    }
-    .Box1{
-        margin-bottom: 50px;
-    }
-}
-@media (max-width:819px) {
-    body #bgmig{
-        height: auto;
-    } 
-}
 @media (max-width:767.5px) {
     body #bgmig{
         height: 100vh;
@@ -383,7 +370,7 @@ body #bgmig{
     width: 100%;
     height: auto;
 }
-.h1{
+.boxhead{
     width: 77%;
     border-bottom: 2px solid black;
     font-weight: 700;
@@ -414,12 +401,12 @@ body #bgmig{
      padding-bottom: 30px;
      background-color: #edf3fa;
  }
- .boxhead{
+ .boxhead1{
      margin-left: 20px;
  }
 }
 @media (max-width:991.5px) {
-    .h1{
+    .boxhead{
         width: 100%;
     }
 }
@@ -450,7 +437,6 @@ body #bgmig{
 .head1{
     width: 100vw;
     text-align: center;
-    font-size: 28px;
     font-weight: 750;
 }
 .imgBox2{
