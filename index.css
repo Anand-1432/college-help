@@ -15,7 +15,7 @@ body #bgmig{
 }
 @media (max-width:1116px) {
     body #bgmig{
-        height: 49vh;
+        height: auto;
     }
     .Box1{
         margin-bottom: 50px;
@@ -23,7 +23,7 @@ body #bgmig{
 }
 @media (max-width:819px) {
     body #bgmig{
-        height: 48vh;
+        height: auto;
     } 
 }
 @media (max-width:767.5px) {
