@@ -15,7 +15,7 @@ body #bgmig{
 }
 @media (max-width:1116px) {
     body #bgmig{
-        height: 53vh;
+        height: 49vh;
     }
     .Box1{
         margin-bottom: 50px;
@@ -23,7 +23,7 @@ body #bgmig{
 }
 @media (max-width:819px) {
     body #bgmig{
-        height: 59vh;
+        height: 48vh;
     } 
 }
 @media (max-width:767.5px) {
@@ -167,6 +167,10 @@ body #bgmig{
     margin-bottom: 0px;
 }
 
+.caption{
+    width: 90%;
+    height: auto;
+}
 
 @media (max-width:992px){
     .para2{
@@ -176,23 +180,12 @@ body #bgmig{
         padding: 0px;
     }
 }
-@media (max-width:767.5) {
-    .para2{
-        margin: -20px auto 0px auto ;
-        font-size: 50px;
-    }
-    .para1{
-        margin: auto;
-    }
-    .content2{
-        padding: 6vw 7vw 0px 7vw;
+@media (max-width:767.5px) {
+    .caption{
+        margin-left: 20px;
     }
 }
 
-.caption{
-    width: 250px;
-    height: auto;
-}
 
 /* /////////////////////////////////////////////////////////////////////////////////////////////////// */
 
@@ -248,8 +241,8 @@ body #bgmig{
         margin: auto;
     }
     #pA2{
-        padding-left: 5px;
-        padding-right: 5px;
+        padding-left: 15px;
+        padding-right: 15px;
     }
 }
 /* //////////////////////////////////////////////////////////////////////////////////// */
@@ -445,6 +438,11 @@ body #bgmig{
     width: 345px;
     height: auto;
 }
+.imgBox2 img{
+    width: 150px;
+    height: auto;
+    border-radius: 15px;
+}
 .imgBox{
     display: grid;
     place-content: center;
@@ -456,13 +454,16 @@ body #bgmig{
     font-weight: 750;
 }
 .imgBox2{
-  margin-top: 40px;
-  margin-bottom: 40px;
-  width: 100%;
-  text-align: center;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    width: 100%;
+    text-align: center;
 }
-.imgBox2 img{
-    width: 150px;
-    height: auto;
-    border-radius: 15px;
+@media (max-width:767.5px) {
+    .imgBox img{
+        width: 330px;
+    }
+    .imgBox2{
+        margin-top: 20px;
+    }
 }
